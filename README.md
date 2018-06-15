@@ -1,6 +1,6 @@
 # image-classifier
 
-Perform image classification using deep neural networks (DNNs) on Intel® Movidius™ Neural Compute Stick (NCS). The <a href="https://movidius.github.io/blog/ncs-image-classifier/">NCS developer blog</a> has a step by step tutorial on how to build this project, and also has a detailed explanation of the source code.
+This is the code for [this](https://youtu.be/KuM67WfTXBQ) video on Youtube by Siraj Raval. Perform image classification using deep neural networks (DNNs) on Intel® Movidius™ Neural Compute Stick (NCS). The <a href="https://movidius.github.io/blog/ncs-image-classifier/">NCS developer blog</a> has a step by step tutorial on how to build this project, and also has a detailed explanation of the source code.
 
 ## Prerequisites
 
@@ -68,3 +68,7 @@ You can use this project as a template for your custom image classifier app. Bel
 2. Steps 1, 2 and 5 are common across all Neural Compute Stick apps, so you can re-use those fuctions without modifications.
 3. Step 3, 'Pre-process the images' is probably the most customizable function. As the name suggests, you can include all image pre-processing tasks in this function. Ex. if you don't want to warp the input image, just crop it before calling `skimage.transform.resize`.
 4. Step 4 should be modified only if there is a need to change the way inference results are read and printed.
+
+## Credits 
+
+Credits for this code go to Intel 
